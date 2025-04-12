@@ -1,0 +1,47 @@
+h1 {
+    text-align: left;
+}
+ 
+form {
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid #3f16e4;
+    border-radius: 1em;
+}
+
+p + p {
+    margin-top: 1em;
+}
+      
+label {
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+}
+      
+input,
+textarea {
+    font: 1em times new roman;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #cc0606;
+}
+    
+input:focus,
+    textarea:focus {
+    outline-style: solid;
+    outline-color: #000;
+}
+      
+    textarea {
+    vertical-align: top;
+    height: 0.5em;
+}
+      
+    .button {
+    padding-left: 90px; 
+}
+      
+    button {
+    margin-left: 0.5em;
+}   
